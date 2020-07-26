@@ -11,7 +11,7 @@ public class Main2 {
 		System.out.format("%s","Enter type of material(Standard,Above,High):-");material=input.next();
 		System.out.format("%s","Enter Area ");area=input.nextInt();
 		System.out.format("%s","Enter Is House should beFully automated  home or not (true,false):-");is_automated=input.nextBoolean();
-		HouseConstructionCost obj=new HouseConstructionCost();
+		HouseCost obj=new HouseCost();
 		System.out.format(" total Overall Estimation Cost for House Construction is:-%d",obj.costEstimation(material,area,is_automated));
 	}
 
