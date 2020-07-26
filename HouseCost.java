@@ -1,5 +1,5 @@
 package task_cleancode.task_cleancode;
-public class HouseConstructionCost{
+public class HouseCost{
 	public int costEstimation(String material_Type,int area,boolean is_automated){
 		int cost_per_square_feet=-1;
 		if(is_automated==true && material_Type.equals("High")) {
